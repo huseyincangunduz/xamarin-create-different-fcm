@@ -1,0 +1,43 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="369.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ForeignUserView">
+        <Button
+            android:text="Giriş yap"
+            android:layout_width="152.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:onClick="loginClicked" />
+        <Button
+            android:text="Üye ol"
+            android:layout_width="145.0dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/button1"
+            android:id="@+id/button2"
+            android:onClick="registerClicked" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="381.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoggedUserView"
+        android:layout_marginBottom="111.5dp">
+        <Button
+            android:text="Çıkış yap"
+            android:layout_width="152.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:onClick="logoutClicked" />
+
+    </RelativeLayout>
+</RelativeLayout>

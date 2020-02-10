@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "270170897256",
+    "firebase_url": "https://obamos-8b8ad.firebaseio.com",
+    "project_id": "obamos-8b8ad",
+    "storage_bucket": "obamos-8b8ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270170897256:android:1fd61d18a36e53e527f4dd",
+        "android_client_info": {
+          "package_name": "com.companyname.obamos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270170897256-auu35sncgt5csrbldu4vt2us1gv0vgi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-_Y4pQVDkqk1RR0_Lzr3Yg8iufWJN44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270170897256-auu35sncgt5csrbldu4vt2us1gv0vgi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

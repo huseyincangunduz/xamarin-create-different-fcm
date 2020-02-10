@@ -1,0 +1,42 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+    android:text="Giriş yap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView3"
+    android:textSize="24pt" />
+    <TextView
+        android:text="Kullanıcı adı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="10pt"
+        android:typeface="sans" />
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtbox_username" />
+    <TextView
+        android:text="Şifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="10pt" />
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtbox_password" />
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/button1"
+        android:onClick="onClickLoginButton"/>
+
+</LinearLayout>
